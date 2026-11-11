@@ -1,0 +1,373 @@
+{
+ "generatedAt": "2026-11-11T13:46:21.142Z",
+ "stats": {
+  "buildings": 526,
+  "tierA": 2,
+  "tierB": 55,
+  "tierC": 469,
+  "officialBuildings": 48,
+  "officialMatched": 40,
+  "geomVerified": 36,
+  "geomInferred": 21,
+  "geomApproximate": 469,
+  "features": 545,
+  "trees": 28868,
+  "props": 836,
+  "structureQuads": 252559,
+  "maxTerrainM": 200,
+  "roadWays": 156,
+  "pathWays": 199,
+  "bridgeWays": 22
+ },
+ "officialMatches": [
+  {
+   "code": "",
+   "name": "Academic Building",
+   "method": "official-name",
+   "osm": "relation/3174704",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Lee Shau Kee Library",
+   "method": "official-name",
+   "osm": "way/240394873",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Lo Kwee-Seong Building",
+   "method": "official-name",
+   "osm": "way/760106032",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "The Hong Kong Jockey Club Enterprise Center",
+   "method": "official-name",
+   "osm": "way/263493528",
+   "distM": -1
+  },
+  {
+   "code": "CYT",
+   "name": "Cheng Yu Tung Building",
+   "method": "official-name",
+   "osm": "way/235914561",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Martin Ka Shing Lee Innovation Building",
+   "method": "official-name",
+   "osm": "way/240457949",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Shaw Auditorium",
+   "method": "official-name",
+   "osm": "way/1010089329",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Wong Check She Research Center for Environment and Infrastructure",
+   "method": "official-name",
+   "osm": "way/232891898",
+   "distM": -1
+  },
+  {
+   "code": "LSK",
+   "name": "Lee Shau Kee Business Building",
+   "method": "official-name",
+   "osm": "way/315573847",
+   "distM": -1
+  },
+  {
+   "code": "IAS",
+   "name": "HKUST Jockey Club Institute for Advanced Study / Lo Ka Chung Building",
+   "method": "official-name",
+   "osm": "way/236995335",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge",
+   "method": "official-name",
+   "osm": "way/368772044",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Lo Ka Chung University Center",
+   "method": "official-name",
+   "osm": "way/235914427",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Lee Yin Yee Hall (Hall I)",
+   "method": "official-name",
+   "osm": "way/233624053",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall II",
+   "method": "official-name",
+   "osm": "way/233624047",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Ho Iu Kwong and Kwok Pui Chun Hall (Hall III)",
+   "method": "official-name",
+   "osm": "way/235329012",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall IV",
+   "method": "official-name",
+   "osm": "way/235329015",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "UG Hall V (PG Hall II)",
+   "method": "official-name",
+   "osm": "way/233624046",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall VI",
+   "method": "official-name",
+   "osm": "way/235329019",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Chan Sui Kau and Chan Lam Moon Chun Hall (Hall VII)",
+   "method": "official-name",
+   "osm": "way/235329009",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall VIII",
+   "method": "official-name",
+   "osm": "way/236029390",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall IX",
+   "method": "official-name",
+   "osm": "way/236029388",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall X",
+   "method": "official-name",
+   "osm": "way/1425048092",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "DJI Hall (Hall XI)",
+   "method": "official-name",
+   "osm": "way/1425048093",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall XII",
+   "method": "official-name",
+   "osm": "way/1425048094",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Hall XIII",
+   "method": "official-name",
+   "osm": "way/1425048095",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Stephen Kam Chuen Cheong Hall (PG Hall I)",
+   "method": "official-name",
+   "osm": "way/233624045",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Jockey Club Tower",
+   "method": "official-name",
+   "osm": "way/235329019",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Jockey Club Global Graduate Tower",
+   "method": "official-name",
+   "osm": "way/929486773",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Tsang Chiu Sang Tower (Tower A)",
+   "method": "official-name",
+   "osm": "way/235914426",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Lam Po Yu Tower (Tower B)",
+   "method": "official-name",
+   "osm": "way/235914424",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "E. Michael Fung Tower (Tower C)",
+   "method": "official-name",
+   "osm": "way/1425159024",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Rose Fung Tower (Tower D)",
+   "method": "official-name",
+   "osm": "way/1425159025",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Staff Quarters Tower 3",
+   "method": "official-name",
+   "osm": "way/236029394",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Staff Quarters Tower 4",
+   "method": "official-name",
+   "osm": "way/236029393",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Staff Quarters Towers 5-7",
+   "method": "official-name",
+   "osm": "way/236029396",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "President's Lodge",
+   "method": "official-name",
+   "osm": "way/236145962",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Distinguished Guest Lodge",
+   "method": "official-name",
+   "osm": "way/236145962",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Tsang Shiu Tim Sports Center",
+   "method": "official-name",
+   "osm": "way/235858068",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Ocean Research Facility",
+   "method": "official-name",
+   "osm": "way/235858068",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "Water Sports Center",
+   "method": "official-name",
+   "osm": "way/1106268804",
+   "distM": -1
+  },
+  {
+   "code": "",
+   "name": "HKUST Medical Education and Research Complex",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "S H Ho Sports Hall",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "Daniel & Mayce Yu Research Building",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "S H Ho Tower",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "UniLodge",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "Fok Ying Tung Sports Center",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "Indoor Swimming Pool",
+   "method": "unmatched"
+  },
+  {
+   "code": "",
+   "name": "HKUST AI Supercomputing Center",
+   "method": "unmatched"
+  }
+ ],
+ "specials": [
+  {
+   "name": "red-bird-sundial",
+   "gx": 361.01203897127743,
+   "gz": 546.7872339420301,
+   "note": "stylised red sculpture at OSM node/2439950828"
+  }
+ ],
+ "constructionSiteMarkers": [
+  "Daniel & Mayce Yu Research Building"
+ ],
+ "tierA": [
+  {
+   "id": "relation/3174704",
+   "name": "Academic Building",
+   "model": "academic",
+   "base": 122,
+   "heightM": 38.8,
+   "heightSource": "verified"
+  },
+  {
+   "id": "way/1010089329",
+   "name": "Shaw Auditorium",
+   "model": "ring_auditorium",
+   "base": 138,
+   "heightM": 22.2,
+   "heightSource": "verified"
+  }
+ ]
+}

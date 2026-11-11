@@ -1,0 +1,688 @@
+{
+ "metadata": {
+  "source": "Official HKUST Campus Map (PDF), transcribed by hand",
+  "url": "https://publish.ust.hk/univ/maps/Campus_Map_Color.pdf",
+  "rights": "© The Hong Kong University of Science and Technology. Factual names only; used with attribution. Not an open-licensed dataset.",
+  "note": "The official map has no coordinates: positions come from OpenStreetMap. Zones are a project grouping.",
+  "transcribedOn": "2026-11-10",
+  "extractedAt": "2026-11-10T16:54:34.334Z"
+ },
+ "zones": [
+  {
+   "id": 1,
+   "nameEn": "Academic Core",
+   "nameZh": "學術大樓區",
+   "point": null
+  },
+  {
+   "id": 2,
+   "nameEn": "Lee Shau Kee Campus",
+   "nameZh": "李兆基校園",
+   "point": null
+  },
+  {
+   "id": 3,
+   "nameEn": "Student Halls & Apartments",
+   "nameZh": "學生宿舍",
+   "point": null
+  },
+  {
+   "id": 4,
+   "nameEn": "Staff Quarters",
+   "nameZh": "教職員宿舍",
+   "point": null
+  },
+  {
+   "id": 5,
+   "nameEn": "Sports & Waterfront",
+   "nameZh": "體育設施及海濱",
+   "point": null
+  }
+ ],
+ "hostelTypes": {
+  "1": "Student hall / residence"
+ },
+ "buildings": [
+  {
+   "officialId": 1,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Academic Building",
+   "nameZh": "學術大樓",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 2,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Lee Shau Kee Library",
+   "nameZh": "李兆基圖書館",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "HKUST Library Extension"
+   ]
+  },
+  {
+   "officialId": 3,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Lo Kwee-Seong Building",
+   "nameZh": "羅桂祥樓",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 4,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "The Hong Kong Jockey Club Enterprise Center",
+   "nameZh": "香港賽馬會創新科技中心",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 5,
+   "mapCode": "",
+   "shortCode": "CYT",
+   "nameEn": "Cheng Yu Tung Building",
+   "nameZh": "鄭裕彤樓",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "Hong Kong University of Science and Technology Cheng Yu Tung Building"
+   ]
+  },
+  {
+   "officialId": 6,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Martin Ka Shing Lee Innovation Building",
+   "nameZh": "李家誠創科大樓",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 7,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Shaw Auditorium",
+   "nameZh": "逸夫演藝中心",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 8,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Wong Check She Research Center for Environment and Infrastructure",
+   "nameZh": "黃焯書科研中心",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 9,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "HKUST Medical Education and Research Complex",
+   "nameZh": "香港科技大學醫學教研綜合大樓",
+   "zoneId": 1,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 10,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "S H Ho Sports Hall",
+   "nameZh": "何善衡體育館",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "S.H. Ho Sports Hall"
+   ]
+  },
+  {
+   "officialId": 11,
+   "mapCode": "",
+   "shortCode": "LSK",
+   "nameEn": "Lee Shau Kee Business Building",
+   "nameZh": "李兆基商學大樓",
+   "zoneId": 2,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "HKUST Lee Shau Kee Business Building",
+    "Hong Kong University of Science and Technology Lee Shau Kee Business Building"
+   ]
+  },
+  {
+   "officialId": 12,
+   "mapCode": "",
+   "shortCode": "IAS",
+   "nameEn": "HKUST Jockey Club Institute for Advanced Study / Lo Ka Chung Building",
+   "nameZh": "香港科技大學賽馬會高等研究院／盧家驄薈萃樓",
+   "zoneId": 2,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "Lo Ka Chung Building",
+    "HKUST Jockey Club Institute for Advanced Study Lo Ka Chung Building"
+   ]
+  },
+  {
+   "officialId": 13,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge",
+   "nameZh": "李達三葉耀珍伉儷李本俊會議大樓",
+   "zoneId": 2,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "HKUST Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge",
+    "Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge By Nina Hospitality"
+   ]
+  },
+  {
+   "officialId": 14,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Daniel & Mayce Yu Research Building",
+   "nameZh": "於崇光伉儷研究大樓",
+   "zoneId": 2,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 15,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Lo Ka Chung University Center",
+   "nameZh": "盧家驄大學中心",
+   "zoneId": 3,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 16,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Lee Yin Yee Hall (Hall I)",
+   "nameZh": "李賢義樓（學生宿舍一座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Undergraduate Hall I"
+   ]
+  },
+  {
+   "officialId": 17,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall II",
+   "nameZh": "學生宿舍二座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Undergraduate Hall II",
+    "Hong Kong University of Science and Technology Undergraduate Hall II"
+   ]
+  },
+  {
+   "officialId": 18,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Ho Iu Kwong and Kwok Pui Chun Hall (Hall III)",
+   "nameZh": "何耀光郭佩珍伉儷樓（學生宿舍三座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Undergraduate Hall III",
+    "Hong Kong University of Science and Technology Undergraduate Hall III"
+   ]
+  },
+  {
+   "officialId": 19,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall IV",
+   "nameZh": "學生宿舍四座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall IV",
+    "Hong Kong University of Science and Technology Undergraduate Hall IV"
+   ]
+  },
+  {
+   "officialId": 20,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "UG Hall V (PG Hall II)",
+   "nameZh": "學生宿舍五座（研究生宿舍二座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Postgraduate Hall II",
+    "Hong Kong University of Science and Technology Postgraduate Hall II"
+   ]
+  },
+  {
+   "officialId": 21,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall VI",
+   "nameZh": "學生宿舍六座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Undergraduate Hall VI"
+   ]
+  },
+  {
+   "officialId": 22,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Chan Sui Kau and Chan Lam Moon Chun Hall (Hall VII)",
+   "nameZh": "陳瑞球林滿珍伉儷樓（學生宿舍七座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Chan Sui Kau and Chan Lam Moon Chun Hall (Undergraduate Hall VII)",
+    "Student Hall VII",
+    "Hong Kong University of Science and Technology Student Hall VII"
+   ]
+  },
+  {
+   "officialId": 23,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall VIII",
+   "nameZh": "學生宿舍八座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall VIII"
+   ]
+  },
+  {
+   "officialId": 24,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall IX",
+   "nameZh": "學生宿舍九座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall IX"
+   ]
+  },
+  {
+   "officialId": 25,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall X",
+   "nameZh": "學生宿舍十座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall X"
+   ]
+  },
+  {
+   "officialId": 26,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "DJI Hall (Hall XI)",
+   "nameZh": "大疆創新樓（學生宿舍十一座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "DJI Hall (Undergraduate Hall XI)"
+   ]
+  },
+  {
+   "officialId": 27,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall XII",
+   "nameZh": "學生宿舍十二座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall XII"
+   ]
+  },
+  {
+   "officialId": 28,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Hall XIII",
+   "nameZh": "學生宿舍十三座",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Undergraduate Hall XIII"
+   ]
+  },
+  {
+   "officialId": 29,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Stephen Kam Chuen Cheong Hall (PG Hall I)",
+   "nameZh": "張鑑泉樓（研究生宿舍一座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Stephen Kam Chuen Cheong Hall",
+    "Hong Kong University of Science and Technology Stephen Kam Chuen Cheong Hall"
+   ]
+  },
+  {
+   "officialId": 30,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Jockey Club Tower",
+   "nameZh": "賽馬會樓",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Hong Kong University of Science and Technology Jockey Club Tower Hall VI"
+   ]
+  },
+  {
+   "officialId": 31,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "S H Ho Tower",
+   "nameZh": "何善衡樓",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Hong Kong University of Science and Technology S H Ho Tower"
+   ]
+  },
+  {
+   "officialId": 32,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Jockey Club Global Graduate Tower",
+   "nameZh": "賽馬會集賢樓",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "The Jockey Club Global Graduate Tower",
+    "Hong Kong University of Science and Technology Global Graduate Tower"
+   ]
+  },
+  {
+   "officialId": 33,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Tsang Chiu Sang Tower (Tower A)",
+   "nameZh": "曾超生樓（A座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST University Apartments Tower A",
+    "Hong Kong University of Science and Technology Tower A"
+   ]
+  },
+  {
+   "officialId": 34,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Lam Po Yu Tower (Tower B)",
+   "nameZh": "林寶茹樓（B座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST University Apartments Tower B",
+    "Hong Kong University of Science and Technology Tower B"
+   ]
+  },
+  {
+   "officialId": 35,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "E. Michael Fung Tower (Tower C)",
+   "nameZh": "馮愉敏樓（C座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "University Apartments Tower C",
+    "Hong Kong University of Science and Technology Tower C"
+   ]
+  },
+  {
+   "officialId": 36,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Rose Fung Tower (Tower D)",
+   "nameZh": "馮陳美霞樓（D座）",
+   "zoneId": 3,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "University Apartments Tower D",
+    "Hong Kong University of Science and Technology Tower D"
+   ]
+  },
+  {
+   "officialId": 37,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Staff Quarters Tower 3",
+   "nameZh": "教職員宿舍三座",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Staff Quarters Tower 3",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 3"
+   ]
+  },
+  {
+   "officialId": 38,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Staff Quarters Tower 4",
+   "nameZh": "教職員宿舍四座",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Staff Quarters Tower 4",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 4"
+   ]
+  },
+  {
+   "officialId": 39,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Staff Quarters Towers 5-7",
+   "nameZh": "教職員宿舍五至七座",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST Senior Staff Quarters Tower 5-7",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 5-7"
+   ]
+  },
+  {
+   "officialId": 40,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "President's Lodge",
+   "nameZh": "校長宿舍",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "HKUST President's Lodge"
+   ]
+  },
+  {
+   "officialId": 41,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Distinguished Guest Lodge",
+   "nameZh": "貴賓宿舍",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": [
+    "Hong Kong University of Science and Technology Distinguished Guest Lodge"
+   ]
+  },
+  {
+   "officialId": 42,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "UniLodge",
+   "nameZh": "水雲軒",
+   "zoneId": 4,
+   "hostelType": 1,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 43,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Tsang Shiu Tim Sports Center",
+   "nameZh": "曾肇添體育中心",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "Hong Kong University of Science and Technology Tsang Shiu Tim Sports Center",
+    "Tsang Shiu Tim Sports Centre"
+   ]
+  },
+  {
+   "officialId": 44,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Fok Ying Tung Sports Center",
+   "nameZh": "霍英東體育中心",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 45,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Indoor Swimming Pool",
+   "nameZh": "室內游泳池",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 46,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Ocean Research Facility",
+   "nameZh": "海洋研究實驗中心",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": [
+    "Coastal Marine Laboratory"
+   ]
+  },
+  {
+   "officialId": 47,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "HKUST AI Supercomputing Center",
+   "nameZh": "香港科技大學人工智能超級運算中心",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  },
+  {
+   "officialId": 48,
+   "mapCode": "",
+   "shortCode": "",
+   "nameEn": "Water Sports Center",
+   "nameZh": "水上活動中心",
+   "zoneId": 5,
+   "hostelType": null,
+   "point": null,
+   "aliases": []
+  }
+ ],
+ "landmarks": [],
+ "places": [
+  {
+   "nameEn": "Piazza (Red Bird Sundial)",
+   "nameZh": "廣場",
+   "zone": 1,
+   "osmName": "Red Bird",
+   "note": "Position from the OpenStreetMap artwork node for the sculpture on the Piazza."
+  },
+  {
+   "nameEn": "North Bus Station",
+   "nameZh": "北門巴士站",
+   "zone": 1,
+   "osmName": "^(?!.*South).*HKUST\\s*$",
+   "osmKind": "bus_station"
+  },
+  {
+   "nameEn": "South Bus Station",
+   "nameZh": "南門巴士站",
+   "zone": 1,
+   "osmName": "HKUST \\(South\\)",
+   "osmKind": "bus_station"
+  }
+ ],
+ "stops": [],
+ "facilities": []
+}

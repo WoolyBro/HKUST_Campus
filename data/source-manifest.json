@@ -1,0 +1,123 @@
+{
+  "description": "Every external source used by HKUST Voxel Campus, with licence status. Checked before modelling began.",
+  "accessDate": "2026-11-10",
+  "sources": [
+    {
+      "id": "osm",
+      "name": "OpenStreetMap (via Overpass API)",
+      "url": "https://www.openstreetmap.org/",
+      "licence": "Open Database License (ODbL) 1.0",
+      "licenceUrl": "https://www.openstreetmap.org/copyright",
+      "accessDate": "2026-11-10",
+      "dataUsed": "HKUST campus boundary (way 40664120); building footprints and tags; roads, footpaths, steps, bridges; water, coastline, woodland, grass, gardens; pitches, car parks, squares; entrances, bus stations, artworks, named points.",
+      "role": "Geometry of every mapped feature.",
+      "shippedInSite": "Derived block data only (rasterised and meshed). Raw extract cached in data/raw/ (git-ignored).",
+      "derivativesPublishable": true,
+      "attribution": "© OpenStreetMap contributors",
+      "restrictions": "Attribution required; derived databases must stay under ODbL. Queried once by script for a bounded study-area polygon — the website never calls Overpass. The extract came from an Overpass mirror whose data snapshot was dated 2026-07-24."
+    },
+    {
+      "id": "landsd-dtm",
+      "name": "Lands Department, HKSAR Government — Digital Terrain Model (5 m grid)",
+      "url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm",
+      "licence": "DATA.GOV.HK Terms and Conditions of Use",
+      "licenceUrl": "https://data.gov.hk/en/terms-and-conditions",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Whole_HK_DTM_5m.asc cropped to the study area (274 × 300 cells), resampled to a 1 m grid.",
+      "role": "Terrain elevation.",
+      "shippedInSite": "Derived block heights only.",
+      "derivativesPublishable": true,
+      "attribution": "Terrain: Digital Terrain Model © The Government of the Hong Kong SAR (Lands Department), from DATA.GOV.HK",
+      "restrictions": "Free for commercial and non-commercial use provided the source is identified and the Government's ownership acknowledged. Published accuracy ±5 m; surface may include vegetation and elevated structures."
+    },
+    {
+      "id": "landsd-building",
+      "name": "Lands Department, HKSAR Government — Building (polygons with names and heights)",
+      "url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-landsd-building",
+      "licence": "DATA.GOV.HK Terms and Conditions of Use",
+      "licenceUrl": "https://data.gov.hk/en/terms-and-conditions",
+      "accessDate": "2026-11-10",
+      "dataUsed": "904 building polygons in the study area (CSDI dataset landsd_rcd_1637211194312_35158): building names (English / Chinese), base and top heights, podium / tower type.",
+      "role": "Building heights and the podium / tower split; official names for buildings OpenStreetMap leaves unnamed; an independent polygon to cross-check each OSM footprint. Footprints still come from OpenStreetMap.",
+      "shippedInSite": "Derived block heights and building names. A slim copy of the polygons and attributes is kept in data/processed/ for reproducible builds.",
+      "derivativesPublishable": true,
+      "attribution": "Building names and heights: Building data © The Government of the Hong Kong SAR (Lands Department), from DATA.GOV.HK",
+      "restrictions": "Free for commercial and non-commercial use provided the source is identified and the Government's ownership acknowledged. Heights are top minus base level of each polygon; they are matched to OSM footprints by overlap, which can mis-assign values where the two datasets disagree."
+    },
+    {
+      "id": "hkust-map",
+      "name": "The Hong Kong University of Science and Technology — official Campus Map (PDF)",
+      "url": "https://publish.ust.hk/univ/maps/Campus_Map_Color.pdf",
+      "licence": "© The Hong Kong University of Science and Technology. No open licence stated.",
+      "licenceUrl": "https://hkust.edu.hk/",
+      "accessDate": "2026-11-10",
+      "dataUsed": "48 official building names (English / Chinese) and three place names, transcribed by hand into data/curated/official-hkust.json.",
+      "role": "Authoritative naming. The map is a schematic without coordinates, so it supplies names only — never positions or shapes.",
+      "shippedInSite": "Factual names only, with attribution. The PDF and its artwork are NOT shipped.",
+      "derivativesPublishable": "Facts only — not an open dataset. Seek permission from HKUST before any commercial use.",
+      "attribution": "Building names: official HKUST Campus Map (© The Hong Kong University of Science and Technology)",
+      "restrictions": "Not open data. Names were transcribed by hand, so transcription errors are possible. This project is unofficial and not affiliated with or endorsed by HKUST. Zones are a project grouping."
+    },
+    {
+      "id": "hkust-pathadvisor",
+      "name": "HKUST Path Advisor — building list",
+      "url": "https://pathadvisor.ust.hk/",
+      "licence": "© The Hong Kong University of Science and Technology. No open licence stated.",
+      "licenceUrl": "https://hkust.edu.hk/",
+      "accessDate": "2026-11-10",
+      "dataUsed": "The building abbreviations CYT, LSK and IAS.",
+      "role": "Short building codes shown in search and the inspector.",
+      "shippedInSite": "Three abbreviations.",
+      "derivativesPublishable": "Facts only.",
+      "attribution": "Building abbreviations: HKUST Path Advisor",
+      "restrictions": "Indoor floor plans and room data from Path Advisor are not used."
+    },
+    {
+      "id": "hkust-photos",
+      "name": "Photographs on the official HKUST website",
+      "url": "https://hkust.edu.hk/",
+      "licence": "© The Hong Kong University of Science and Technology. All rights reserved.",
+      "licenceUrl": "https://hkust.edu.hk/",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Viewed privately to understand the Academic Building's Piazza façade and the Red Bird sundial.",
+      "role": "Private visual reference for two models.",
+      "shippedInSite": "Nothing. No photograph or derivative image is included.",
+      "derivativesPublishable": false,
+      "attribution": "Not applicable (not redistributed)",
+      "restrictions": "Reference only. Most other buildings were not checked against photographs."
+    },
+    {
+      "id": "landsd-imagery",
+      "name": "Lands Department — Hong Kong Imagery Map API (aerial photographs)",
+      "url": "https://portal.csdi.gov.hk/csdi-webpage/apidoc/ImageryMapAPI",
+      "licence": "© The Government of the Hong Kong SAR. Hong Kong Map Service terms of use; not open data.",
+      "licenceUrl": "https://api.portal.hkmapservice.gov.hk/disclaimer",
+      "accessDate": "2026-11-11",
+      "dataUsed": "89 aerial-photo tiles of the campus (64 at zoom 18, 25 close-up tiles of the Piazza at zoom 20), looked at next to a top-down render of the model.",
+      "role": "Private visual reference for the model audit (scripts/audit). Used to spot where the model disagrees with the real campus; each resulting correction is written down by hand in data/manual-overrides.json. Never used as a texture, never traced automatically.",
+      "shippedInSite": "Nothing. Tiles and comparison sheets stay in data/raw/ (git-ignored).",
+      "derivativesPublishable": "No — the imagery itself is not redistributed. Only hand-written corrections informed by looking at it are published.",
+      "attribution": "Aerial Photograph from Lands Department (reference only, not redistributed)",
+      "restrictions": "Reference only. The photographs' capture date is not stated by the service, so they may be older or newer than the OpenStreetMap snapshot. Only the campus and a 40 m margin were checked."
+    },
+    {
+      "id": "font",
+      "name": "Pixelify Sans typeface (via @fontsource)",
+      "url": "https://fontsource.org/fonts/pixelify-sans",
+      "licence": "SIL Open Font License 1.1",
+      "licenceUrl": "https://openfontlicense.org/",
+      "accessDate": "2026-11-10",
+      "dataUsed": "Headline typeface.",
+      "role": "User interface.",
+      "shippedInSite": "Font files (self-hosted).",
+      "derivativesPublishable": true,
+      "attribution": "Pixelify Sans © Stefie Justprince, OFL 1.1",
+      "restrictions": "None beyond the OFL."
+    }
+  ],
+  "notUsed": [
+    "Google Maps / Google Earth, Bing Maps, Apple Maps, Mapbox imagery — not used in any form.",
+    "OpenStreetMap raster tiles — not downloaded.",
+    "Minecraft / Mojang textures, sounds, logos, fonts or game files — none. All block textures are procedural and original."
+  ]
+}

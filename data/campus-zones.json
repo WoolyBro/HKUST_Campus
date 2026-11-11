@@ -1,0 +1,79 @@
+{
+  "description": "Named zones of the HKUST Clear Water Bay campus. The official campus map does not divide the campus into zones (it only labels the Lee Shau Kee Campus), so these five zones are this project's grouping of official buildings (data/curated/official-hkust.json) plus name patterns for buildings the official map labels only as groups. Each zone can be enabled, disabled or expanded independently; the build derives the zone grid from these settings.",
+  "sourceUrl": "https://publish.ust.hk/univ/maps/Campus_Map_Color.pdf",
+  "zones": [
+    {
+      "id": 1,
+      "key": "core",
+      "nameEn": "Academic Core",
+      "nameZh": "學術大樓區",
+      "source": "project-grouping",
+      "enabled": true,
+      "expandRadiusM": 70,
+      "osmNamePatterns": [
+        "Academic Building",
+        "Library",
+        "Annex Building",
+        "Car Park",
+        "Liquid Helium"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "lsk",
+      "nameEn": "Lee Shau Kee Campus",
+      "nameZh": "李兆基校園",
+      "source": "official-label",
+      "enabled": true,
+      "expandRadiusM": 60,
+      "osmNamePatterns": [
+        "Lee Shau Kee Campus"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "halls",
+      "nameEn": "Student Halls & Apartments",
+      "nameZh": "學生宿舍",
+      "source": "project-grouping",
+      "enabled": true,
+      "expandRadiusM": 50,
+      "osmNamePatterns": [
+        "Undergraduate Hall",
+        "Postgraduate Hall",
+        "University Apartments",
+        "Student Hall",
+        "i-Village"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "staff",
+      "nameEn": "Staff Quarters",
+      "nameZh": "教職員宿舍",
+      "source": "project-grouping",
+      "enabled": true,
+      "expandRadiusM": 50,
+      "osmNamePatterns": [
+        "Staff Quarters",
+        "President's Lodge",
+        "Guest Lodge"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "sports",
+      "nameEn": "Sports & Waterfront",
+      "nameZh": "體育設施及海濱",
+      "source": "project-grouping",
+      "enabled": true,
+      "expandRadiusM": 80,
+      "osmNamePatterns": [
+        "Sports",
+        "Swimming",
+        "Water Sports",
+        "Marine"
+      ]
+    }
+  ]
+}

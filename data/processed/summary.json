@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-11-10T16:49:15.394Z",
+  "source": {
+    "file": "data/raw/osm-hkust.json",
+    "fetchedAt": "2026-11-10T16:49:12.558Z",
+    "osmBase": "2026-07-24T11:04:51Z",
+    "licence": "ODbL 1.0 — © OpenStreetMap contributors"
+  },
+  "counts": {
+    "buildings": 531,
+    "roads": 162,
+    "paths": 171,
+    "stairs": 32,
+    "bridges": 24,
+    "waterways": 9,
+    "vegetation": 90,
+    "facilities": 111,
+    "transport": 18,
+    "terrain-features": 49
+  },
+  "skippedUnclassified": 229,
+  "flagged": [
+    {
+      "id": "way/963061233",
+      "group": "paths",
+      "flags": [
+        "degenerate-line"
+      ]
+    },
+    {
+      "id": "way/970456606",
+      "group": "paths",
+      "flags": [
+        "degenerate-line"
+      ]
+    },
+    {
+      "id": "way/970456607",
+      "group": "paths",
+      "flags": [
+        "degenerate-line"
+      ]
+    }
+  ]
+}

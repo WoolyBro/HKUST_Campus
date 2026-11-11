@@ -1,0 +1,501 @@
+{
+ "description": "Official building names of the HKUST Clear Water Bay campus, transcribed by hand from the official HKUST Campus Map PDF (https://publish.ust.hk/univ/maps/Campus_Map_Color.pdf, accessed 2026-11-10). The map is a schematic without coordinates, so positions come from OpenStreetMap; 'aliases' are the names the same building carries in OpenStreetMap or Lands Department data and are used only for matching. Building abbreviations (CYT, LSK, IAS) are those used by HKUST's Path Advisor. 'zone' is this project's grouping. Transcription errors are possible.",
+ "sourceUrl": "https://publish.ust.hk/univ/maps/Campus_Map_Color.pdf",
+ "transcribedOn": "2026-11-10",
+ "buildings": [
+  {
+   "officialId": 1,
+   "nameEn": "Academic Building",
+   "nameZh": "學術大樓",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 2,
+   "nameEn": "Lee Shau Kee Library",
+   "nameZh": "李兆基圖書館",
+   "zone": 1,
+   "code": "",
+   "aliases": [
+    "HKUST Library Extension"
+   ]
+  },
+  {
+   "officialId": 3,
+   "nameEn": "Lo Kwee-Seong Building",
+   "nameZh": "羅桂祥樓",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 4,
+   "nameEn": "The Hong Kong Jockey Club Enterprise Center",
+   "nameZh": "香港賽馬會創新科技中心",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 5,
+   "nameEn": "Cheng Yu Tung Building",
+   "nameZh": "鄭裕彤樓",
+   "zone": 1,
+   "code": "CYT",
+   "aliases": [
+    "Hong Kong University of Science and Technology Cheng Yu Tung Building"
+   ]
+  },
+  {
+   "officialId": 6,
+   "nameEn": "Martin Ka Shing Lee Innovation Building",
+   "nameZh": "李家誠創科大樓",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 7,
+   "nameEn": "Shaw Auditorium",
+   "nameZh": "逸夫演藝中心",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 8,
+   "nameEn": "Wong Check She Research Center for Environment and Infrastructure",
+   "nameZh": "黃焯書科研中心",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 9,
+   "nameEn": "HKUST Medical Education and Research Complex",
+   "nameZh": "香港科技大學醫學教研綜合大樓",
+   "zone": 1,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 10,
+   "nameEn": "S H Ho Sports Hall",
+   "nameZh": "何善衡體育館",
+   "zone": 5,
+   "code": "",
+   "aliases": [
+    "S.H. Ho Sports Hall"
+   ]
+  },
+  {
+   "officialId": 11,
+   "nameEn": "Lee Shau Kee Business Building",
+   "nameZh": "李兆基商學大樓",
+   "zone": 2,
+   "code": "LSK",
+   "aliases": [
+    "HKUST Lee Shau Kee Business Building",
+    "Hong Kong University of Science and Technology Lee Shau Kee Business Building"
+   ]
+  },
+  {
+   "officialId": 12,
+   "nameEn": "HKUST Jockey Club Institute for Advanced Study / Lo Ka Chung Building",
+   "nameZh": "香港科技大學賽馬會高等研究院／盧家驄薈萃樓",
+   "zone": 2,
+   "code": "IAS",
+   "aliases": [
+    "Lo Ka Chung Building",
+    "HKUST Jockey Club Institute for Advanced Study Lo Ka Chung Building"
+   ]
+  },
+  {
+   "officialId": 13,
+   "nameEn": "Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge",
+   "nameZh": "李達三葉耀珍伉儷李本俊會議大樓",
+   "zone": 2,
+   "code": "",
+   "aliases": [
+    "HKUST Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge",
+    "Li Dak Sum Yip Yio Chin Kenneth Li Conference Lodge By Nina Hospitality"
+   ]
+  },
+  {
+   "officialId": 14,
+   "nameEn": "Daniel & Mayce Yu Research Building",
+   "nameZh": "於崇光伉儷研究大樓",
+   "zone": 2,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 15,
+   "nameEn": "Lo Ka Chung University Center",
+   "nameZh": "盧家驄大學中心",
+   "zone": 3,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 16,
+   "nameEn": "Lee Yin Yee Hall (Hall I)",
+   "nameZh": "李賢義樓（學生宿舍一座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST Undergraduate Hall I"
+   ]
+  },
+  {
+   "officialId": 17,
+   "nameEn": "Hall II",
+   "nameZh": "學生宿舍二座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST Undergraduate Hall II",
+    "Hong Kong University of Science and Technology Undergraduate Hall II"
+   ]
+  },
+  {
+   "officialId": 18,
+   "nameEn": "Ho Iu Kwong and Kwok Pui Chun Hall (Hall III)",
+   "nameZh": "何耀光郭佩珍伉儷樓（學生宿舍三座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST Undergraduate Hall III",
+    "Hong Kong University of Science and Technology Undergraduate Hall III"
+   ]
+  },
+  {
+   "officialId": 19,
+   "nameEn": "Hall IV",
+   "nameZh": "學生宿舍四座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall IV",
+    "Hong Kong University of Science and Technology Undergraduate Hall IV"
+   ]
+  },
+  {
+   "officialId": 20,
+   "nameEn": "UG Hall V (PG Hall II)",
+   "nameZh": "學生宿舍五座（研究生宿舍二座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Postgraduate Hall II",
+    "Hong Kong University of Science and Technology Postgraduate Hall II"
+   ]
+  },
+  {
+   "officialId": 21,
+   "nameEn": "Hall VI",
+   "nameZh": "學生宿舍六座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST Undergraduate Hall VI"
+   ]
+  },
+  {
+   "officialId": 22,
+   "nameEn": "Chan Sui Kau and Chan Lam Moon Chun Hall (Hall VII)",
+   "nameZh": "陳瑞球林滿珍伉儷樓（學生宿舍七座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Chan Sui Kau and Chan Lam Moon Chun Hall (Undergraduate Hall VII)",
+    "Student Hall VII",
+    "Hong Kong University of Science and Technology Student Hall VII"
+   ]
+  },
+  {
+   "officialId": 23,
+   "nameEn": "Hall VIII",
+   "nameZh": "學生宿舍八座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall VIII"
+   ]
+  },
+  {
+   "officialId": 24,
+   "nameEn": "Hall IX",
+   "nameZh": "學生宿舍九座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall IX"
+   ]
+  },
+  {
+   "officialId": 25,
+   "nameEn": "Hall X",
+   "nameZh": "學生宿舍十座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall X"
+   ]
+  },
+  {
+   "officialId": 26,
+   "nameEn": "DJI Hall (Hall XI)",
+   "nameZh": "大疆創新樓（學生宿舍十一座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "DJI Hall (Undergraduate Hall XI)"
+   ]
+  },
+  {
+   "officialId": 27,
+   "nameEn": "Hall XII",
+   "nameZh": "學生宿舍十二座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall XII"
+   ]
+  },
+  {
+   "officialId": 28,
+   "nameEn": "Hall XIII",
+   "nameZh": "學生宿舍十三座",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Undergraduate Hall XIII"
+   ]
+  },
+  {
+   "officialId": 29,
+   "nameEn": "Stephen Kam Chuen Cheong Hall (PG Hall I)",
+   "nameZh": "張鑑泉樓（研究生宿舍一座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Stephen Kam Chuen Cheong Hall",
+    "Hong Kong University of Science and Technology Stephen Kam Chuen Cheong Hall"
+   ]
+  },
+  {
+   "officialId": 30,
+   "nameEn": "Jockey Club Tower",
+   "nameZh": "賽馬會樓",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Hong Kong University of Science and Technology Jockey Club Tower Hall VI"
+   ]
+  },
+  {
+   "officialId": 31,
+   "nameEn": "S H Ho Tower",
+   "nameZh": "何善衡樓",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "Hong Kong University of Science and Technology S H Ho Tower"
+   ]
+  },
+  {
+   "officialId": 32,
+   "nameEn": "Jockey Club Global Graduate Tower",
+   "nameZh": "賽馬會集賢樓",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "The Jockey Club Global Graduate Tower",
+    "Hong Kong University of Science and Technology Global Graduate Tower"
+   ]
+  },
+  {
+   "officialId": 33,
+   "nameEn": "Tsang Chiu Sang Tower (Tower A)",
+   "nameZh": "曾超生樓（A座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST University Apartments Tower A",
+    "Hong Kong University of Science and Technology Tower A"
+   ]
+  },
+  {
+   "officialId": 34,
+   "nameEn": "Lam Po Yu Tower (Tower B)",
+   "nameZh": "林寶茹樓（B座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "HKUST University Apartments Tower B",
+    "Hong Kong University of Science and Technology Tower B"
+   ]
+  },
+  {
+   "officialId": 35,
+   "nameEn": "E. Michael Fung Tower (Tower C)",
+   "nameZh": "馮愉敏樓（C座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "University Apartments Tower C",
+    "Hong Kong University of Science and Technology Tower C"
+   ]
+  },
+  {
+   "officialId": 36,
+   "nameEn": "Rose Fung Tower (Tower D)",
+   "nameZh": "馮陳美霞樓（D座）",
+   "zone": 3,
+   "code": "",
+   "aliases": [
+    "University Apartments Tower D",
+    "Hong Kong University of Science and Technology Tower D"
+   ]
+  },
+  {
+   "officialId": 37,
+   "nameEn": "Staff Quarters Tower 3",
+   "nameZh": "教職員宿舍三座",
+   "zone": 4,
+   "code": "",
+   "aliases": [
+    "HKUST Staff Quarters Tower 3",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 3"
+   ]
+  },
+  {
+   "officialId": 38,
+   "nameEn": "Staff Quarters Tower 4",
+   "nameZh": "教職員宿舍四座",
+   "zone": 4,
+   "code": "",
+   "aliases": [
+    "HKUST Staff Quarters Tower 4",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 4"
+   ]
+  },
+  {
+   "officialId": 39,
+   "nameEn": "Staff Quarters Towers 5-7",
+   "nameZh": "教職員宿舍五至七座",
+   "zone": 4,
+   "code": "",
+   "aliases": [
+    "HKUST Senior Staff Quarters Tower 5-7",
+    "Hong Kong University of Science and Technology Staff Quarters Tower 5-7"
+   ]
+  },
+  {
+   "officialId": 40,
+   "nameEn": "President's Lodge",
+   "nameZh": "校長宿舍",
+   "zone": 4,
+   "code": "",
+   "aliases": [
+    "HKUST President's Lodge"
+   ]
+  },
+  {
+   "officialId": 41,
+   "nameEn": "Distinguished Guest Lodge",
+   "nameZh": "貴賓宿舍",
+   "zone": 4,
+   "code": "",
+   "aliases": [
+    "Hong Kong University of Science and Technology Distinguished Guest Lodge"
+   ]
+  },
+  {
+   "officialId": 42,
+   "nameEn": "UniLodge",
+   "nameZh": "水雲軒",
+   "zone": 4,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 43,
+   "nameEn": "Tsang Shiu Tim Sports Center",
+   "nameZh": "曾肇添體育中心",
+   "zone": 5,
+   "code": "",
+   "aliases": [
+    "Hong Kong University of Science and Technology Tsang Shiu Tim Sports Center",
+    "Tsang Shiu Tim Sports Centre"
+   ]
+  },
+  {
+   "officialId": 44,
+   "nameEn": "Fok Ying Tung Sports Center",
+   "nameZh": "霍英東體育中心",
+   "zone": 5,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 45,
+   "nameEn": "Indoor Swimming Pool",
+   "nameZh": "室內游泳池",
+   "zone": 5,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 46,
+   "nameEn": "Ocean Research Facility",
+   "nameZh": "海洋研究實驗中心",
+   "zone": 5,
+   "code": "",
+   "aliases": [
+    "Coastal Marine Laboratory"
+   ]
+  },
+  {
+   "officialId": 47,
+   "nameEn": "HKUST AI Supercomputing Center",
+   "nameZh": "香港科技大學人工智能超級運算中心",
+   "zone": 5,
+   "code": "",
+   "aliases": []
+  },
+  {
+   "officialId": 48,
+   "nameEn": "Water Sports Center",
+   "nameZh": "水上活動中心",
+   "zone": 5,
+   "code": "",
+   "aliases": []
+  }
+ ],
+ "places": [
+  {
+   "nameEn": "Piazza (Red Bird Sundial)",
+   "nameZh": "廣場",
+   "zone": 1,
+   "osmName": "Red Bird",
+   "note": "Position from the OpenStreetMap artwork node for the sculpture on the Piazza."
+  },
+  {
+   "nameEn": "North Bus Station",
+   "nameZh": "北門巴士站",
+   "zone": 1,
+   "osmName": "^(?!.*South).*HKUST\\s*$",
+   "osmKind": "bus_station"
+  },
+  {
+   "nameEn": "South Bus Station",
+   "nameZh": "南門巴士站",
+   "zone": 1,
+   "osmName": "HKUST \\(South\\)",
+   "osmKind": "bus_station"
+  }
+ ]
+}

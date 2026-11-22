@@ -1,0 +1,177 @@
+{
+ "sources": {
+  "wikidata": "Wikidata (CC0)",
+  "monuments": "Antiquities and Monuments Office, Declared Monuments (CSDI / DATA.GOV.HK)"
+ },
+ "generatedAt": "2026-11-22T08:00:11.688Z",
+ "wikidata": [
+  {
+   "id": "Q1333303",
+   "label": "Hong Kong University of Science and Technology",
+   "aliases": [
+    "HKUST",
+    "The Hong Kong University of Science and Technology"
+   ],
+   "lon": 114.263,
+   "lat": 22.3375,
+   "inception": "1991",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q5630006",
+   "label": "HKUST Business School",
+   "aliases": [
+    "HKUST School of Business and Management",
+    "Hong Kong University of Science and Technology Business School",
+    "Hong Kong University of Science and Technology School of Business and Management"
+   ],
+   "lon": 114.266,
+   "lat": 22.3362,
+   "inception": "1991",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q22442905",
+   "label": "Hong Kong University of Science and Technology Library",
+   "aliases": [
+    "HKUST Library"
+   ],
+   "lon": 114.263,
+   "lat": 22.3375,
+   "inception": "1991",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q30274185",
+   "label": "Nano and Advanced Materials Institute",
+   "aliases": [
+    "NAMI"
+   ],
+   "lon": 114.2639964,
+   "lat": 22.3351208,
+   "inception": "2006",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q6425993",
+   "label": "Kohima Camp",
+   "aliases": [],
+   "lon": 114.265,
+   "lat": 22.3367,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  },
+  {
+   "id": "Q7675819",
+   "label": "Tai Po Tsai",
+   "aliases": [],
+   "lon": 114.259653,
+   "lat": 22.337383,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q8423944",
+   "label": "Clear Water Bay Road",
+   "aliases": [],
+   "lon": 114.262171089,
+   "lat": 22.330884911,
+   "inception": "1932",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  },
+  {
+   "id": "Q20092003",
+   "label": "Pak Shui Wun",
+   "aliases": [],
+   "lon": 114.26596,
+   "lat": 22.34114,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  },
+  {
+   "id": "Q23888278",
+   "label": "Mount Pavilia",
+   "aliases": [],
+   "lon": 114.26132,
+   "lat": 22.33619,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q86725234",
+   "label": "Shaw Studio",
+   "aliases": [],
+   "lon": 114.264372,
+   "lat": 22.331798,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": false
+  },
+  {
+   "id": "Q131548319",
+   "label": "University Road",
+   "aliases": [],
+   "lon": 114.261524677,
+   "lat": 22.339199925,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  },
+  {
+   "id": "Q131690323",
+   "label": "Ah Kung Wan Road",
+   "aliases": [],
+   "lon": 114.265344142,
+   "lat": 22.329921017,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  },
+  {
+   "id": "Q131690348",
+   "label": "Ngan Ying Road",
+   "aliases": [],
+   "lon": 114.2630589,
+   "lat": 22.331632948,
+   "inception": "",
+   "architects": "",
+   "styles": "",
+   "heritage": "",
+   "structure": true
+  }
+ ],
+ "monuments": []
+}

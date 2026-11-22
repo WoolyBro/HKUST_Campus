@@ -18,6 +18,9 @@ It is **not** a game world, mod, server or download, it needs no game installati
 
 ## What you can do
 
+- Open the **Student guide** (🎓) for walking tours of the HKUST campus: a route drawn along mapped paths, with a short note at each stop.
+- Click a building for its facts with sources, what is mapped inside it, the nearest station, stops (with routes), library and food, and accessibility as mapped.
+- See **guide places** as you zoom in (transit, food, cafés, libraries, safety, shops…); filter them under Layers and search "coffee", "study" or a route number.
 - Land on an orthographic three-quarter overview, then orbit, pan and zoom.
 - Switch between **Isometric** (orthographic), **Orbit** (perspective) and **Explore** (first-person
   walk / run / fly with terrain following and building collision), plus **Street level**.

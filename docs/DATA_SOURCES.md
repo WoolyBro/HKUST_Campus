@@ -103,6 +103,16 @@ outline estimated by eye from the photograph; it is marked approximate.
 
 Pixelify Sans (SIL Open Font License 1.1), self-hosted through `@fontsource/pixelify-sans`.
 
+## Student-guide sources
+
+| Source                                                                                                                                      | Licence                                 | Used for                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------- |
+| OpenStreetMap supplementary extract (shops, emergency points, healthcare, offices) — `scripts/fetch-osm-extra.ts`                           | ODbL 1.0                                | Guide places, merged with the main extract                          |
+| Transport Department, Public transport GTFS (<https://data.gov.hk/en-data/dataset/hk-td-tis_11-pt-headway-en>) — `scripts/fetch-transit.ts` | DATA.GOV.HK Terms and Conditions of Use | Stops and routes (13 stops, 13 routes)                              |
+| Antiquities and Monuments Office, Declared Monuments (CSDI portal WFS) — `scripts/fetch-hk-monuments.ts`                                    | DATA.GOV.HK Terms and Conditions of Use | Heritage status of 0 monuments in the area                          |
+| Wikidata — `scripts/fetch-guide-facts.ts`                                                                                                   | CC0 1.0                                 | Built, architect, style and heritage of buildings (structures only) |
+| Curated tours — `data/curated/tours.json`                                                                                                   | written for this project                | Tour stops and short stop texts                                     |
+
 ## Deliberately not used
 
 - Google Maps / Google Earth, Bing Maps, Apple Maps, Mapbox imagery — not used in any form.

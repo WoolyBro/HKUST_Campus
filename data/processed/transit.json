@@ -1,0 +1,266 @@
+{
+ "agency": "TD",
+ "label": "bus / minibus stop",
+ "source": "https://static.data.gov.hk/td/pt-headway-en/gtfs.zip",
+ "licence": "DATA.GOV.HK Terms and Conditions of Use",
+ "generatedAt": "2026-11-22T07:40:36.775Z",
+ "stops": [
+  {
+   "id": "8277",
+   "code": "",
+   "name": "Ngan Ying Road, Clear Water Bay Road",
+   "lat": 22.33028,
+   "lon": 114.26282,
+   "routes": [
+    {
+     "short": "91",
+     "long": "Choi Hung BBI - Pik Hoi House - Clear Water Bay (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91M",
+     "long": "H.K.U.S.T (North) - Po Lam (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "792M",
+     "long": "Tseung Kwan O Station - Sai Kung (Citybus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "8278",
+   "code": "",
+   "name": "Ngan Ying Road, Clear Water Bay Road",
+   "lat": 22.33018,
+   "lon": 114.26273,
+   "routes": [
+    {
+     "short": "91",
+     "long": "Clear Water Bay - Diamond Hill Station (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91M",
+     "long": "Po Lam - Diamond Hill Station (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "792M",
+     "long": "Tseung Kwan O Station - Sai Kung (Citybus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "10282",
+   "code": "",
+   "name": "HK University of Science and Technology, University Road",
+   "lat": 22.33867,
+   "lon": 114.26194,
+   "routes": [
+    {
+     "short": "91",
+     "long": "Choi Hung BBI - Pik Hoi House - Clear Water Bay (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91M",
+     "long": "H.K.U.S.T (North) - Po Lam (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "792M",
+     "long": "Tseung Kwan O Station - Sai Kung (Citybus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "13075",
+   "code": "",
+   "name": "H.K.U.S.T. (South)",
+   "lat": 22.33328,
+   "lon": 114.26284,
+   "routes": [
+    {
+     "short": "91",
+     "long": "Clear Water Bay - Diamond Hill Station (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91M",
+     "long": "Po Lam - Diamond Hill Station (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91P",
+     "long": "H.K.U.S.T. (South) - Ping Shek / Choi Hung Station (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "291P",
+     "long": "H.K.U.S.T. (South) - Mong Kok (Kowloon Motor Bus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "10000296",
+   "code": "",
+   "name": "H.K.U.S.T. (Lo Kwee-Seong Building)",
+   "lat": 22.33633,
+   "lon": 114.26265,
+   "routes": [
+    {
+     "short": "91B",
+     "long": "Hang Hau Station - HKUST (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91P",
+     "long": "Diamond Hill Station - Hong Kong University of Science and Tehnology (Kowloon Motor Bus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "10000297",
+   "code": "",
+   "name": "H.K.U.S.T. (Shaw Auditorium)",
+   "lat": 22.3338,
+   "lon": 114.263,
+   "routes": [
+    {
+     "short": "91B",
+     "long": "Hang Hau Station - HKUST (Kowloon Motor Bus)",
+     "mode": "bus"
+    },
+    {
+     "short": "91P",
+     "long": "Diamond Hill Station - Hong Kong University of Science and Tehnology (Kowloon Motor Bus)",
+     "mode": "bus"
+    }
+   ]
+  },
+  {
+   "id": "20001944",
+   "code": "",
+   "name": "Clear Water Bay Road, Outside Rose De Cosa",
+   "lat": 22.33021,
+   "lon": 114.26269,
+   "routes": [
+    {
+     "short": "101M",
+     "long": "Hang Hau Station - Sai Kung (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20012472",
+   "code": "",
+   "name": "Hong Kong University of Science and Technology (North Station)",
+   "lat": 22.33842,
+   "lon": 114.2621,
+   "routes": [
+    {
+     "short": "11",
+     "long": "Hang Hau Village - Choi Hung Station (Lung Cheung Road)  (Normal Route) (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20012474",
+   "code": "",
+   "name": "Hong Kong University of Science and Technology (North Station)",
+   "lat": 22.33854,
+   "lon": 114.26206,
+   "routes": [
+    {
+     "short": "11B",
+     "long": "Hong Kong University of Science and Technology (North Station) - Choi Hung Station (Lung Cheung Road)  (Morning Special Trips Route) (Green Minibus Services)",
+     "mode": "minibus"
+    },
+    {
+     "short": "11M",
+     "long": "Hang Hau Station Public Transport Interchange - Hong Kong University of Science and Technology (North Station) (Green Minibus Services)",
+     "mode": "minibus"
+    },
+    {
+     "short": "11S",
+     "long": "Po Lam - Choi Hung Station (Lung Cheung Road)  (Overnight Service Route) (Green Minibus Services)",
+     "mode": "minibus"
+    },
+    {
+     "short": "12",
+     "long": "Sai Kung - Po Lam (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20013010",
+   "code": "",
+   "name": "Hong Kong University of Science and Technology (South Station)",
+   "lat": 22.33313,
+   "lon": 114.26287,
+   "routes": [
+    {
+     "short": "11",
+     "long": "Hang Hau Village - Choi Hung Station (Lung Cheung Road)  (Normal Route) (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20013011",
+   "code": "",
+   "name": "Hong Kong University of Science and Technology (South Station)",
+   "lat": 22.33313,
+   "lon": 114.26287,
+   "routes": [
+    {
+     "short": "11B",
+     "long": "Hong Kong University of Science and Technology (South Station) - Choi Hung Station (Lung Cheung Road)  (Evening Special Trips Route) (Green Minibus Services)",
+     "mode": "minibus"
+    },
+    {
+     "short": "11S",
+     "long": "Po Lam - Choi Hung Station (Lung Cheung Road)  (Overnight Service Route) (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20015226",
+   "code": "",
+   "name": "Hong Kong University of Science and Technology (South Station)",
+   "lat": 22.33363,
+   "lon": 114.26374,
+   "routes": [
+    {
+     "short": "104",
+     "long": "Hong Kong University of Science and Technology (South Station) - Kwun Tong (Circular) (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  },
+  {
+   "id": "20015227",
+   "code": "",
+   "name": "TVB City, Outside Shaw House",
+   "lat": 22.33169,
+   "lon": 114.2631,
+   "routes": [
+    {
+     "short": "104",
+     "long": "Hong Kong University of Science and Technology (South Station) - Kwun Tong (Circular) (Green Minibus Services)",
+     "mode": "minibus"
+    }
+   ]
+  }
+ ]
+}

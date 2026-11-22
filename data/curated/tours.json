@@ -1,0 +1,56 @@
+{
+ "note": "Curated walking tour. Stops are features of the model (by key). Texts are short summaries written for this project from the facts in the inspector (official HKUST map names, OpenStreetMap). Routes are computed along mapped paths. Illustrative — not for navigation.",
+ "tours": [
+  {
+   "id": "hkust-essentials",
+   "title": "HKUST essentials: from the North Gate to the sea",
+   "summary": "From the North Bus Station through the Academic Building, the library and the business school, down the hillside to the halls and sports facilities by the water.",
+   "stops": [
+    {
+     "key": "official-place/north-bus-station",
+     "text": "North Bus Station: buses and green minibuses to Hang Hau, Choi Hung and Diamond Hill stop here; the routes are listed in the inspector."
+    },
+    {
+     "key": "relation/3174704",
+     "text": "Academic Building: the main teaching building, around the Atrium. Banks, a convenience store and the S H Ho Sports Hall are mapped inside."
+    },
+    {
+     "key": "official-place/piazza-red-bird-sundial-",
+     "text": "The Piazza and the Red Bird sundial: the open square at the heart of the campus, looking over Port Shelter."
+    },
+    {
+     "key": "way/240394873",
+     "text": "Lee Shau Kee Library: the University library; food outlets are mapped inside."
+    },
+    {
+     "key": "way/315573847",
+     "text": "Lee Shau Kee Business Building (LSK): the business school, with restaurants and a café mapped inside."
+    },
+    {
+     "key": "way/235914561",
+     "text": "Cheng Yu Tung Building (CYT); food outlets are mapped inside."
+    },
+    {
+     "key": "way/236995335",
+     "text": "Jockey Club Institute for Advanced Study (IAS), in the Lo Ka Chung Building."
+    },
+    {
+     "key": "way/1010089329",
+     "text": "Shaw Auditorium: the campus performance venue."
+    },
+    {
+     "key": "way/235329019",
+     "text": "Hall VI, one of the undergraduate halls on the slope; the Seafront Cafeteria is mapped inside."
+    },
+    {
+     "key": "way/235858068",
+     "text": "Tsang Shiu Tim Sports Center, beside the waterfront playing fields."
+    },
+    {
+     "key": "way/1106268804",
+     "text": "Water Sports Center on the seafront of Port Shelter."
+    }
+   ]
+  }
+ ]
+}

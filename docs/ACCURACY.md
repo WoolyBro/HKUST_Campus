@@ -23,6 +23,34 @@ the sea (about 22 % of the area). Other HKUST sites are outside it.
 | Building heights, podium / tower split                                                     | Lands Department Building data (top − base level)             | Used for 470 of 526 footprints; matched to OSM footprints by overlap                                                                                            |
 | Bus stations, the Piazza, artworks                                                         | OSM nodes                                                     | Points, not shapes                                                                                                                                              |
 
+## Student guide
+
+The 🎓 Student guide adds walking tours, and every campus building's inspector shows what a student
+needs: facts with their sources, the places mapped inside it, what is near it, and accessibility as
+mapped.
+
+| Information   | Source                                                                                                                                                | Campus buildings |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| Facts         | Wikidata (built, architect, style, heritage — only items that are buildings, matched by name within 80 m); Antiquities and Monuments Office; OSM tags | 0                |
+| Mapped inside | OSM places located inside the footprint                                                                                                               | 10               |
+| Nearby        | nearest station, stops with routes, library, cafés, food, bike share                                                                                  | 53               |
+| Accessibility | OSM `wheelchair` and mapped entrances                                                                                                                 | 3                |
+
+- **Transit:** official stops and routes from the Transport Department's GTFS feed (DATA.GOV.HK): 13 bus / minibus stops and 13 routes in the modelled area. The MTR is not in that feed; stations come from OpenStreetMap.
+- **Heritage:** declared monuments from the Antiquities and Monuments Office (0 in the modelled area), matched to one building each by name or position.
+- **Places:** 55 guide places appear as you zoom in: transit 13, food 16, cafés 4, libraries 1, safety 0, shops 4, and others. They are filterable under Layers and searchable ("coffee", "study", a route number). OpenStreetMap coverage varies, so a place missing from the map is not necessarily missing on the ground; opening hours are as mapped.
+- **Distances:** "Nearby" distances are straight lines from the footprint, and walking times assume 80 m/min with a 30 % detour allowance.
+
+| Tour                                             | Stops | Route  |
+| ------------------------------------------------ | ----- | ------ |
+| HKUST essentials: from the North Gate to the sea | 11    | 2.9 km |
+
+**Tours:**
+
+- **Routing:** routes are computed on the block grid (A*) along mapped footpaths, plazas and sidewalks. Crossing roads and open ground costs extra, and steep unmapped steps are heavily penalised. A walker may pass through a building that is a stop.
+- **Stop texts:** short summaries written for this project from the facts in the inspector.
+- **Not directions:** tours are illustrative and say nothing about step-free access. Facts that disagree between sources are shown side by side.
+
 ## What is interpreted or invented
 
 - **Official names are attached by name, not by position.** The official map is a schematic PDF
